@@ -47,3 +47,26 @@ form #output input {
     flex: 1;
     font-size: 25px;
 }
+@media (max-width: 600px) {
+    #content {
+        width: 95vw;
+        padding: 15px;
+    }
+
+    #content form input {
+        width: 20vw;
+        height: 20vw;
+        font-size: 6vw;
+        margin: 5px;
+    }
+
+    form #output input {
+        font-size: 7vw;
+        padding: 10px;
+    }
+}
+#res {
+    width: 100%;
+    font-size: 25px;
+    border-radius: 8px;
+}
